@@ -1,0 +1,27 @@
+Install:
+1 Go into lab2 folder in terminal 
+2 Type 'npm install' press enter
+3.Wait for dependencies to install
+4.Also run npm install in th react app folder
+
+Run:
+1 Go into lab2 folder in terminal 
+2.Type 'npm start'
+3. This will concurrently run the server and also bring of a webpage of the website
+
+Flow:
+	New User:
+	1. Go to page localhost:3000
+	2. Click the register button
+	3.Register an account
+	4.Once registered the home page wil show yours username the randomly assigned airline your currently with and other airlines that you can request to transfer to
+	5.I was unable to connect the smart contract with the web site so the functionality doesn't work
+	6.By clicking on the buttons under Airlines: it will send a request to the airline to transfer through the smart contract
+
+
+	Register Airline:
+	1. Go to page localhost:3000
+	2.Click on Airline Register
+	3.Register an Airline
+	4.When registered it will welcome you with the airline name
+	5.I haven't connect the smart contract it should register the airline in the smart contract

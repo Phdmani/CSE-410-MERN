@@ -1,0 +1,41 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "concurrently \"cd backend && node server.js\" \"cd reactapp && npm start\""
+  },
+  "author": "joshua",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "concurrently": "^4.1.0",
+    "cors": "^2.8.5",
+    "eslint": "^5.16.0",
+    "fs-extra": "^7.0.1",
+    "ganache-cli": "^6.4.3",
+    "mocha": "^6.1.4",
+    "mongoose": "^5.5.5",
+    "morgan": "^1.9.1",
+    "react": "^16.8.6",
+    "react-scripts": "3.0.0",
+    "solc": "^0.4.25",
+    "truffle-hdwallet-provider": "^1.0.8",
+    "web3": "^1.0.0-beta.54"
+  },
+  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.16.4",
+    "express-pino-logger": "^4.0.0",
+    "node-env-run": "^3.0.2",
+    "nodemon": "^1.19.0",
+    "npm-run-all": "^4.1.5",
+    "pino-colada": "^1.4.4"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "keywords": []
+}
